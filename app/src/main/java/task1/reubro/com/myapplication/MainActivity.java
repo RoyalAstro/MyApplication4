@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
 
-            System.out.println("Back press");
+           // System.out.println("Back press");
             
         } else {
             super.onBackPressed();
